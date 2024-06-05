@@ -1,0 +1,3307 @@
+{
+  "hero": {
+    "name": "legionary",
+    "direction": "top-left",
+    "position": {
+      "x": 18,
+      "y": 18
+    },
+    "army":[
+      {"name":"spearmans","count":10,"power":100},
+      {"name":"cyclops","count":5,"power":500},
+      {"name":"angels","count":0,"power":3000}
+    ],
+    "artifacts":[],
+    "resources":[
+      {"type":"gold","count":0},
+      {"type":"gems","count":0},
+      {"type":"crystals","count":0}
+    ],
+    "building":[],
+    "powerfrombuildings": 0
+  },
+  "height": 20,
+  "width": 20,
+  "grid": [
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLPNTR7",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+      "building":{
+        "type":"static",
+        "name":"AVSarna",
+        "imageStart":{
+          "x":0,
+          "y":1
+        },
+        "impassabilityGrid":[
+          [true,true,true],
+          [true,false,true]
+        ]
+      }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLPNTR7",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,true],
+            [true,true,false]
+
+          ]
+
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLPNTR2",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR5",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,false],
+            [false,true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR5",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,false],
+            [false,true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR3",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR1",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+          [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "building":{
+          "type":"static",
+          "name":"AVGcycl",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true],
+            [true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "power":1000
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "building":{
+          "type":"static",
+          "name":"AVSarna",
+          "imageStart":{
+            "x":0,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,true],
+            [true,false,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR7",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "armyShop":{
+          "creatures": [
+            {"name":"cyclops","count":2, "power": 500}
+          ],
+          "cost": [
+            {"type": "gold", "count": 2000},
+            {"type": "crystals", "count": 1}
+          ]
+       }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AvLMtDr6",
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "power":1000
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "artifact":{
+          "type":"sword",
+          "power":500
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR0",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "resources":{
+          "type":"gold",
+          "count":1000,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"gold","count":1000}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "creature":{
+          "name":"gremlings",
+          "framesCount": 5, 
+          "count":10,
+          "power":100,
+          "killings": [ ]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "resources":{
+          "type":"gems",
+          "count":1,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"gems","count":1}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "artifact":{
+          "type":"shield",
+          "power":1200
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "building":{
+          "type":"dynamic",
+          "name":"libr",
+          "imageStart":{
+            "x":1,
+            "y":2
+        },
+        "impassabilityGrid":[
+          [false],
+          [false]
+        ],
+        "power":1000
+      }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "resources":{
+          "type":"gems",
+          "count":1,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"gems","count":1}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "creature": {
+          "name":"pasises",
+          "framesCount": 8,
+          "count":9,
+          "power":1000,
+          "killings":[
+            {"name":"spearmans","count":2},
+            {"name":"cyclops","count":1}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AVLoc3r0",
+          "imageStart":{
+            "x":0,
+            "y":0
+          },
+          "impassabilityGrid":[
+            [true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLPNTR7",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR1",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR0",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR6",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,false],
+            [true,true,true],
+            [false,true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "artifact":{
+          "type":"armor",
+          "power":1000
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR6",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,false],
+            [true,true,true],
+            [false,true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "creature":{
+          "name":"mantikores",
+          "framesCount": 5,
+          "count":5,
+          "power":1500,
+          "killings":[
+            {"name":"cyclops","count":1}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AvLMtGn3",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,true],
+            [false,true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "artifact":{
+          "type": "boots",
+          "power":1000
+
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AVLlk2d0",
+          "imageStart":{
+            "x":0,
+            "y":0
+          },
+          "impassabilityGrid":[
+            [true,true,true,true],
+            [true,true,true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "creature":{
+          "name":"dendroids",
+          "framesCount": 5,
+          "count":12,
+          "power":500,
+          "killings":[
+            {"name":"cyclops","count":2}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "resources":{
+          "type":"gold",
+          "count":1000,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"gold","count":1000}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "creature":{
+          "name":"cirens",
+          "framesCount": 4,
+          "count":15,
+          "power":200,
+          "killings":[ ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLPNTR0",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLPNTR0",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AvLMtGn3",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,true],
+            [false,true,true]
+          ]
+
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLPNTR7",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,true],
+            [true,true,false]
+          ]
+
+
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLPNTR0",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "creature":{
+          "name":"grifons",
+          "framesCount": 4,
+          "count":20,
+          "power":200,
+          "killings":[
+            {"name":"spearmans","count":3}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "resources":{
+          "type":"gems",
+          "count":1,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"gems","count":1}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "resources":{
+          "type":"crystals",
+          "count":1,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"crystals","count":1}
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AvLMtGn0",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true,true,true],
+            [true,true,true,true,true],
+            [true,true,true,false,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AvLMtGn2",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,true],
+            [true,true,false]
+          ]
+
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "building":{
+          "type":"static",
+          "name":"AVG2ang",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true],
+            [true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR7",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR5",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,false],
+            [false,true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "resources":{
+          "type":"gold",
+          "count":1000,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"gold","count":1000}
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "armyShop": {
+          "creatures": [
+            {"name":"angels","count":2, "power":1000}
+          ],
+          "cost": [
+            {"type":"gems","count":3}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR1",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "building":{
+          "type":"static",
+          "name":"AVXbgt6",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,false,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "gates":[
+          {"type":"shield"},
+          {"type":"armor"},
+          {"type":"boots"},
+          {"type":"helm"},
+          {"type":"sword"}          
+        ]
+
+        
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "building":{
+          "type":"static",
+          "name":"AVGcycl",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true],
+            [true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "creature":{
+          "name":"nags",
+          "framesCount": 5,
+          "count":10,
+          "power":1130,
+          "killings":[
+            {"name":"cyclops","count":1},
+            {"name":"spearmans","count":1}
+          ]
+        }
+
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "artifact":{
+          "type":"helm",
+          "power":2000
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "creature":{
+          "name":"ifrits",
+          "framesCount": 5,
+          "count":5,
+          "power":1000,
+          "killings":[
+            {"name":"cyclops","count":1},
+            {"name":"spearmans","count":2}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AvLMtDr3",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+        "impassabilityGrid":[
+          [true,true,true],
+          [false,true,true]
+        ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "artifact":{
+          "type":"ring",
+          "power":1000
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "armyShop":{
+          "creatures": [
+            {"name":"cyclops","count":2}
+          ],
+          "cost": [
+            {"type": "gold", "count": 2000},
+            {"type": "crystals", "count": 1}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR7",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR5",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,false],
+            [false,true,true]
+          ]
+        }
+
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "resources":{
+          "type":"gold",
+          "count":1000,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"gold","count":1000}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR5",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,false],
+            [false,true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+        
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "resources":{
+          "type":"crystals",
+          "count":1,
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "addres":[
+            {"type":"crystals","count":1}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR7",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AVLoc3r0",
+          "imageStart":{
+            "x":0,
+            "y":0
+          },
+          "impassabilityGrid":[
+            [true,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "building":{
+          "type":"dynamic",
+          "name":"port",
+          "imageStart":{
+            "x":1,
+            "y":0
+          },
+          "impassabilityGrid":[
+            [true,true],
+            [false,true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR0",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR1",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "landscape":{
+          "type":"rock",
+          "name":"AvLMtDr4",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR1",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        },
+        "creature":{
+          "name":"dragons",
+          "framesCount": 5,
+          "count":5,
+          "power":3000,
+          "killings":[
+            {"name":"spearmans","count":3},
+            {"name":"cyclops","count":2},
+            {"name":"angels","count":1}
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "winpoint":{
+          "name":"win"
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR3",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR3",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [false,true,true],
+            [true,true,false]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ],
+    [
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        },
+        "landscape":{
+          "type":"tree",
+          "name":"AVLAUTR1",
+          "imageStart":{
+            "x":1,
+            "y":1
+          },
+          "impassabilityGrid":[
+            [true]
+          ]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb002"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb000"]
+        }
+      },
+      {
+        "land": {
+          "type": "grass",
+          "frames": ["tgrb001"]
+        }
+      }
+    ]
+  ]
+}

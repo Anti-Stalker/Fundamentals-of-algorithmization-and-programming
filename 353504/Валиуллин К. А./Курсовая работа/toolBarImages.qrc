@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/About.png</file>
+        <file>Images/ChangeExistNote.png</file>
+        <file>Images/ChangeGroup.png</file>
+        <file>Images/CreateDatabase.png</file>
+        <file>Images/CreateGroup.png</file>
+        <file>Images/CreateNewNote.png</file>
+        <file>Images/DeleteGroup.png</file>
+        <file>Images/DeleteNote.png</file>
+        <file>Images/LockDatabase.png</file>
+        <file>Images/Quit.png</file>
+        <file>Images/Sort.png</file>
+        <file>Images/UnlockDatabase.png</file>
+        <file>Images/ChangeDatabase.png</file>
+        <file>Images/copyToClipboard.png</file>
+        <file>Images/ApplicationIcon.jpg</file>
+    </qresource>
+</RCC>

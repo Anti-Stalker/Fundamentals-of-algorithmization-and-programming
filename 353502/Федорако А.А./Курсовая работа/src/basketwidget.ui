@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BasketWidget</class>
+ <widget class="QWidget" name="BasketWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>1061</width>
+     <height>661</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>Продукт</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Наименование</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Emall.by</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Соседи</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Корона</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Санта</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Евроопт</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Гиппо</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Green</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Удалить</string>
+    </property>
+   </column>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

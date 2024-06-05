@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PasswordManager</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../toolBarImages.qrc">
+    <normaloff>:/Images/ApplicationIcon.jpg</normaloff>:/Images/ApplicationIcon.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="pageBaseView">
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QSplitter" name="splitter_2">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+          <widget class="QWidget" name="layoutWidget">
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="maximumSize">
+               <size>
+                <width>281</width>
+                <height>21</height>
+               </size>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;База данных, которая открыта сейчас:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="baseName">
+              <property name="text">
+               <string>TextLabel</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QSplitter" name="splitter">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <widget class="QListWidget" name="groupListWidget">
+            <property name="maximumSize">
+             <size>
+              <width>350</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+           <widget class="QTableWidget" name="notesTableWidget">
+            <property name="minimumSize">
+             <size>
+              <width>600</width>
+              <height>500</height>
+             </size>
+            </property>
+            <property name="editTriggers">
+             <set>QAbstractItemView::NoEditTriggers</set>
+            </property>
+            <property name="selectionMode">
+             <enum>QAbstractItemView::ContiguousSelection</enum>
+            </property>
+            <property name="selectionBehavior">
+             <enum>QAbstractItemView::SelectRows</enum>
+            </property>
+            <property name="columnCount">
+             <number>5</number>
+            </property>
+            <attribute name="horizontalHeaderCascadingSectionResizes">
+             <bool>false</bool>
+            </attribute>
+            <column/>
+            <column/>
+            <column/>
+            <column/>
+            <column/>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuBase">
+    <property name="title">
+     <string>Базы данных</string>
+    </property>
+    <addaction name="actionCreateDatabase"/>
+    <addaction name="actionChooseUnlockingBase"/>
+    <addaction name="separator"/>
+    <addaction name="actionChangeDatabase"/>
+    <addaction name="separator"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuEntries">
+    <property name="title">
+     <string>Записи</string>
+    </property>
+    <addaction name="actionCreateNewNote"/>
+    <addaction name="actionChangeNote"/>
+    <addaction name="actionDeleteNote"/>
+    <addaction name="separator"/>
+    <addaction name="actionCopyUsername"/>
+    <addaction name="actionCopyPassword"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>Группы</string>
+    </property>
+    <addaction name="actionCreateGroup"/>
+    <addaction name="actionChangeGroup"/>
+    <addaction name="actionDeleteGroup"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>Справка</string>
+    </property>
+    <addaction name="actionAboutProgram"/>
+   </widget>
+   <addaction name="menuBase"/>
+   <addaction name="menuEntries"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionCreateDatabase">
+   <property name="text">
+    <string>Заблокировать эту базу данных и создать новую</string>
+   </property>
+  </action>
+  <action name="actionChooseUnlockingBase">
+   <property name="text">
+    <string>Заблокировать базу данных и открыть другую</string>
+   </property>
+  </action>
+  <action name="actionCreateNewNote">
+   <property name="text">
+    <string>Создать запись</string>
+   </property>
+  </action>
+  <action name="actionChangeNote">
+   <property name="text">
+    <string>Изменить запись</string>
+   </property>
+  </action>
+  <action name="actionDeleteNote">
+   <property name="text">
+    <string>Удалить запись</string>
+   </property>
+  </action>
+  <action name="actionCopyUsername">
+   <property name="text">
+    <string>Скопировать логин</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+B</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::WindowShortcut</enum>
+   </property>
+  </action>
+  <action name="actionCopyPassword">
+   <property name="text">
+    <string>Скопировать пароль</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+C</string>
+   </property>
+  </action>
+  <action name="actionRecentBases">
+   <property name="text">
+    <string>Недавние базы данных</string>
+   </property>
+  </action>
+  <action name="action_14">
+   <property name="text">
+    <string>Сохранить базу данных</string>
+   </property>
+  </action>
+  <action name="actionLockDatabase">
+   <property name="text">
+    <string>Закрыть базу данных</string>
+   </property>
+  </action>
+  <action name="actionLockDatabase_2">
+   <property name="text">
+    <string>//Заблокировать базу данных//</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Закрыть приложение</string>
+   </property>
+  </action>
+  <action name="actionCreateGroup">
+   <property name="text">
+    <string>Создать группу</string>
+   </property>
+  </action>
+  <action name="actionChangeGroup">
+   <property name="text">
+    <string>Изменить группу</string>
+   </property>
+  </action>
+  <action name="actionDeleteGroup">
+   <property name="text">
+    <string>Удалить группу</string>
+   </property>
+  </action>
+  <action name="actionSort">
+   <property name="text">
+    <string>Сортировать А-Я</string>
+   </property>
+  </action>
+  <action name="actionAboutProgram">
+   <property name="text">
+    <string>О программе</string>
+   </property>
+  </action>
+  <action name="actionChangeDatabase">
+   <property name="text">
+    <string>Изменить базу данных</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../toolBarImages.qrc"/>
+ </resources>
+ <connections/>
+</ui>

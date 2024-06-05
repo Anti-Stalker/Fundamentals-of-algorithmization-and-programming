@@ -1,0 +1,462 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\CharacterDetailsUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CharacterDetailsUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Animal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Animal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ContextUnitUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ContextUnitUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Gold.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Gold.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Resource.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ResourceInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ResourceInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ResourceInterface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ResourceInterface.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\StorageInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StorageInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\InventoryUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:InventoryUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\DamagableInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DamagableInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\CharacterDetailsUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CharacterDetailsUI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Enums.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Enums.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Building.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Building.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\BaseAI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaseAI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\BaseAI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BaseAI.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSGameCharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameCharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSGameCharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ItemUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ItemUI.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\TeamInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TeamInterface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSOverseerer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSOverseerer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGamePlayerController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSGamePlayerController.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameGameMode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSGameGameMode.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameGameMode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSGameGameMode.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSGame.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.Build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:STSGame.Build.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animal.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Animal.cpp",
+              "RelativeDocumentMoniker": "Animal.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Animal.cpp",
+              "RelativeToolTip": "Animal.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T10:59:46.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResourceInterface.h",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ResourceInterface.h",
+              "RelativeDocumentMoniker": "ResourceInterface.h",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ResourceInterface.h",
+              "RelativeToolTip": "ResourceInterface.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-03T06:04:27.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StorageInterface.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\StorageInterface.cpp",
+              "RelativeDocumentMoniker": "StorageInterface.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\StorageInterface.cpp",
+              "RelativeToolTip": "StorageInterface.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T06:03:42.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ResourceInterface.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ResourceInterface.cpp",
+              "RelativeDocumentMoniker": "ResourceInterface.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ResourceInterface.cpp",
+              "RelativeToolTip": "ResourceInterface.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T06:03:13.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CharacterDetailsUI.h",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\CharacterDetailsUI.h",
+              "RelativeDocumentMoniker": "CharacterDetailsUI.h",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\CharacterDetailsUI.h",
+              "RelativeToolTip": "CharacterDetailsUI.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-03T06:01:32.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Resource.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Resource.cpp",
+              "RelativeDocumentMoniker": "Resource.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Resource.cpp",
+              "RelativeToolTip": "Resource.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:42.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventoryUI.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\InventoryUI.cpp",
+              "RelativeDocumentMoniker": "InventoryUI.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\InventoryUI.cpp",
+              "RelativeToolTip": "InventoryUI.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:38.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Gold.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Gold.cpp",
+              "RelativeDocumentMoniker": "Gold.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Gold.cpp",
+              "RelativeToolTip": "Gold.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:35.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CharacterDetailsUI.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\CharacterDetailsUI.cpp",
+              "RelativeDocumentMoniker": "CharacterDetailsUI.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\CharacterDetailsUI.cpp",
+              "RelativeToolTip": "CharacterDetailsUI.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:24.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Building.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Building.cpp",
+              "RelativeDocumentMoniker": "Building.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Building.cpp",
+              "RelativeToolTip": "Building.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAADUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T00:39:06.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContextUnitUI.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ContextUnitUI.cpp",
+              "RelativeDocumentMoniker": "ContextUnitUI.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ContextUnitUI.cpp",
+              "RelativeToolTip": "ContextUnitUI.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:29.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseAI.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\BaseAI.cpp",
+              "RelativeDocumentMoniker": "BaseAI.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\BaseAI.cpp",
+              "RelativeToolTip": "BaseAI.cpp",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAkwH0AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-03T00:24:09.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseAI.h",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\BaseAI.h",
+              "RelativeDocumentMoniker": "BaseAI.h",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\BaseAI.h",
+              "RelativeToolTip": "BaseAI.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-03T00:24:07.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemUI.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ItemUI.cpp",
+              "RelativeDocumentMoniker": "ItemUI.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\ItemUI.cpp",
+              "RelativeToolTip": "ItemUI.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:41.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TeamInterface.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\TeamInterface.cpp",
+              "RelativeDocumentMoniker": "TeamInterface.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\TeamInterface.cpp",
+              "RelativeToolTip": "TeamInterface.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:18.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DamagableInterface.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\DamagableInterface.cpp",
+              "RelativeDocumentMoniker": "DamagableInterface.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\DamagableInterface.cpp",
+              "RelativeToolTip": "DamagableInterface.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:31.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Enums.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Enums.cpp",
+              "RelativeDocumentMoniker": "Enums.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\Enums.cpp",
+              "RelativeToolTip": "Enums.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:33.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "STSGameCharacter.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameCharacter.cpp",
+              "RelativeDocumentMoniker": "STSGameCharacter.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameCharacter.cpp",
+              "RelativeToolTip": "STSGameCharacter.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T12:05:03.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "STSGameCharacter.h",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameCharacter.h",
+              "RelativeDocumentMoniker": "STSGameCharacter.h",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameCharacter.h",
+              "RelativeToolTip": "STSGameCharacter.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T12:05:02.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "STSOverseerer.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSOverseerer.cpp",
+              "RelativeDocumentMoniker": "STSOverseerer.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSOverseerer.cpp",
+              "RelativeToolTip": "STSOverseerer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T14:43:08.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "STSGamePlayerController.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGamePlayerController.cpp",
+              "RelativeDocumentMoniker": "STSGamePlayerController.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGamePlayerController.cpp",
+              "RelativeToolTip": "STSGamePlayerController.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACAAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T12:06:24.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "STSGameGameMode.h",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameGameMode.h",
+              "RelativeDocumentMoniker": "STSGameGameMode.h",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameGameMode.h",
+              "RelativeToolTip": "STSGameGameMode.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T12:06:18.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "STSGameGameMode.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameGameMode.cpp",
+              "RelativeDocumentMoniker": "STSGameGameMode.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGameGameMode.cpp",
+              "RelativeToolTip": "STSGameGameMode.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T12:05:40.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "STSGame.h",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.h",
+              "RelativeDocumentMoniker": "STSGame.h",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.h",
+              "RelativeToolTip": "STSGame.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-02T12:05:00.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "STSGame.cpp",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.cpp",
+              "RelativeDocumentMoniker": "STSGame.cpp",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.cpp",
+              "RelativeToolTip": "STSGame.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-02T12:04:59.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "STSGame.Build.cs",
+              "DocumentMoniker": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.Build.cs",
+              "RelativeDocumentMoniker": "STSGame.Build.cs",
+              "ToolTip": "C:\\\u0432\u0441\u0435 \u043B\u0430\u0431\u044B\\stsplay\\\u041A\u041E\u0414\\STSGame.Build.cs",
+              "RelativeToolTip": "STSGame.Build.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-02T12:04:43.067Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

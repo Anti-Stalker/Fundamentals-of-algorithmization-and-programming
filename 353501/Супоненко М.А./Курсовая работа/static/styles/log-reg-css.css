@@ -1,0 +1,29 @@
+p {
+    color: red;
+}
+
+label {
+    color: red;
+}
+ 
+h1{
+    color: red;
+}
+
+.log-reg-zone{
+    background-color: white;
+}
+
+.registration,
+.profile,
+.play {
+    color: white;
+}
+
+.custom-file-label {
+    color: red;
+}
+
+.white-panel-choose {
+    background-color: white;
+}

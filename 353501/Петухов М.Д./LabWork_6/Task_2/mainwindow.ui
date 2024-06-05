@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>496</width>
+    <height>155</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>479</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>ввести и сохранить текст</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>вывести текст из txt файла на экран</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ввести и сохранить массив</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>вывести массив из txt файла на экран</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ввести данные в структуру и сохранить в txt файл</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>вывести данные из txt файла со структурой на экран</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ввести данные в структуру и сохранить в bin файл</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>вывести данные из bin файла со структурой на экран</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>ввести предложения в txt файл</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>вывести предложения из txt файла на экран</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="select_case">
+       <property name="text">
+        <string>select_case</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>481</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QPushButton" name="open_struct_dialog">
+       <property name="text">
+        <string>open_struct_dialog</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="open_struct_dialog_for_bin">
+       <property name="text">
+        <string>open_struct_dialog_for_bin</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>496</width>
+     <height>30</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

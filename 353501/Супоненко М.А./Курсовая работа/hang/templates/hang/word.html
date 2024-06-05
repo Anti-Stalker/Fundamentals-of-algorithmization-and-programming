@@ -1,0 +1,197 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/styles/playing.css">
+    <link rel="stylesheet" href="/static/styles/index-css.css">
+    <link rel="stylesheet" href="/static/styles/log-reg-css.css">
+    <link rel="stylesheet" href="{% static  'hang/word/word.css' %}">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/files/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/files/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/files/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/static/files/favicon_io/site.webmanifest">
+
+    <title>Hangman</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="{% url 'hang:home' %}"><img src="/static/images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'hang:home' %}">Game</a>
+                        </li>
+                        {% if user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="{% url 'users:profile' %}">Profile</a>
+                        </li>
+                        {% endif %}
+                        {% if user.is_superuser %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'hang:words' %}">Words</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'hang:categories' %}">Categories</a>
+                        </li>
+                        {% endif %}
+                        {% if user.is_superuser or user.is_staff %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'admin:index' %}">Admin panel</a>
+                        </li>
+                        {% endif %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="{% url 'users:logout' %}">Exit</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+
+        <div class="word-display-container">
+            <p style="opacity: 0;" class="display-word">{{ random_word.text }}</p>
+            <button class="display-btn">Show</button>
+        </div>
+        <div class="content-flex">
+            <div class="word-container">
+                {% for l in random_word.text %}
+                <div class="letter-container">
+                    <p style="text-transform: uppercase;" class="letter-box {{l}}">{{l}}</p>
+                    <span class="bottom-line"></span>
+                </div>
+                {% endfor %}
+            </div>
+
+            <img class="hangman-img" src="/static/images/slide1.png" alt="Hangman image">
+        </div>
+        <ul>
+            <li id="а" class="a-btn active ltr-btn">А</li>
+            <li id="б" class="b-btn active ltr-btn">Б</li>
+            <li id="в" class="c-btn active ltr-btn">В</li>
+            <li id="г" class="d-btn active ltr-btn">Г</li>
+            <li id="д" class="e-btn active ltr-btn">Д</li>
+            <li id="е" class="f-btn active ltr-btn">Е</li>
+            <li id="ё" class="g-btn active ltr-btn">Ё</li>
+            <li id="ж" class="h-btn active ltr-btn">Ж</li>
+            <li id="з" class="i-btn active ltr-btn">З</li>
+            <li id="и" class="j-btn active ltr-btn">И</li>
+            <li id="й" class="k-btn active ltr-btn">Й</li>
+            <li id="к" class="l-btn active ltr-btn">К</li>
+            <li id="л" class="m-btn active ltr-btn">Л</li>
+            <li id="м" class="n-btn active ltr-btn">М</li>
+            <li id="н" class="o-btn active ltr-btn">Н</li>
+            <li id="о" class="p-btn active ltr-btn">О</li>
+            <li id="п" class="q-btn active ltr-btn">П</li>
+            <li id="р" class="r-btn active ltr-btn">Р</li>
+            <li id="с" class="s-btn active ltr-btn">С</li>
+            <li id="т" class="t-btn active ltr-btn">Т</li>
+            <li id="у" class="u-btn active ltr-btn">У</li>
+            <li id="ф" class="v-btn active ltr-btn">Ф</li>
+            <li id="х" class="w-btn active ltr-btn">Х</li>
+            <li id="ц" class="x-btn active ltr-btn">Ц</li>
+            <li id="ч" class="y-btn active ltr-btn">Ч</li>
+            <li id="ш" class="z-btn active ltr-btn">Ш</li>
+            <li id="щ" class="z-btn active ltr-btn">Щ</li>
+            <li id="ъ" class="z-btn active ltr-btn">Ъ</li>
+            <li id="ы" class="z-btn active ltr-btn">Ы</li>
+            <li id="ь" class="z-btn active ltr-btn">Ь</li>
+            <li id="э" class="z-btn active ltr-btn">Э</li>
+            <li id="ю" class="z-btn active ltr-btn">Ю</li>
+            <li id="я" class="z-btn active ltr-btn">Я</li>
+        </ul>
+
+
+        <script>
+            let errCount = 0;
+            let wordVisibility = false;
+            const word = document.querySelector('.display-word').textContent
+            const displayBtn = document.querySelector('.display-btn')
+            const hangmanContainer = document.querySelector('.hangman-container')
+            const wordLetters = word.split("")
+            console.log(wordLetters)
+            window.addEventListener('click', (e) => {
+
+                if (e.target.classList.contains('ltr-btn') && e.target.classList.contains('active')) {
+
+                    e.target.classList.add('passive')
+                    e.target.classList.remove('active')
+                    console.log("err count =Z ", errCount)
+
+                    if (errCount >= 7) { window.alert("Ты проиграл:("); location.reload() }
+
+                    let found = false;
+                    wordLetters.forEach(l => {
+
+                        if (e.target.id === l) {
+
+                            console.log("matched")
+
+
+                            if (!found) found = true;
+
+                            console.log("selected all => ", document.querySelectorAll(`.${l}`))
+
+                            document.querySelectorAll(`.${l}`).forEach(x => {
+                                wordLetters.splice(wordLetters.indexOf(l), 1)
+                                x.style.opacity = "1";
+                            })
+                        }
+                        if (wordLetters.length === 0) {
+                            alert("Ты выиграл!")
+                            location.reload()
+                        }
+                    })
+
+                    if (!found) {
+                        errCount += 1
+                        console.log("err count => ", errCount)
+                        hangmanImg = document.querySelector('.hangman-img')
+                        let str = undefined
+                        if (errCount === 1) str = "/static/images/slide2.png"
+                        if (errCount === 2) str = "/static/images/slide3.png"
+                        if (errCount === 3) str = "/static/images/slide4.png"
+                        if (errCount === 4) str = "/static/images/slide5.png"
+                        if (errCount === 5) str = "/static/images/slide6.png"
+                        if (errCount === 6) str = "/static/images/slide7.png"
+                        if (errCount === 7) str = "/static/images/slide8.png"
+                        hangmanImg.src = str
+                    }
+
+                } else if (e.target === displayBtn) {
+                    let displayWord = document.querySelector('.display-word')
+                    if (wordVisibility) {
+                        wordVisibility = false;
+                        displayBtn.textContent = "Show"
+                        displayWord.style.opacity = 0
+                    } else {
+                        wordVisibility = true;
+                        displayBtn.textContent = "Hide"
+                        displayWord.style.opacity = 1
+                    }
+                }
+
+            })
+        </script>
+
+    </section>
+    <footer>
+    </footer>
+</body>
+
+</html>

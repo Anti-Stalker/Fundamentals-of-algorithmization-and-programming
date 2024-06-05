@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1183</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1183</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1183</width>
+    <height>900</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>860</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>0</y>
+      <width>351</width>
+      <height>855</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>270</number>
+    </attribute>
+    <attribute name="verticalHeaderMinimumSectionSize">
+     <number>100</number>
+    </attribute>
+    <attribute name="verticalHeaderDefaultSectionSize">
+     <number>104</number>
+    </attribute>
+    <row>
+     <property name="text">
+      <string>Line 16</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Line 64</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Line 128</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Line 2048</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Quad 16</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Quad 64</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Quad 128</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Quad 2048</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>Time (nsec)</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>860</y>
+      <width>801</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                                L16              Q16                   L64             Q64                  L128          Q128              L2048        Q2048</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>870</y>
+      <width>351</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Regenerate and test again</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

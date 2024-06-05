@@ -1,0 +1,9 @@
+﻿<Application x:Class="WPFClient.App"
+             xmlns="http://schemas.microsoft.com/winfx/2024/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2024/xaml"
+             xmlns:local="clr-namespace:WPFClient"
+             StartupUri="ClientWindow.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

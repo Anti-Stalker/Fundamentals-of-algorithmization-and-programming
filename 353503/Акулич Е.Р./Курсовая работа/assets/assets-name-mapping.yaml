@@ -1,0 +1,54 @@
+GRASTL: 
+   name: grass
+   type: land
+DIRTTL: 
+   name: dirt
+   type: land
+sandtl: 
+   name: sand
+   type: land
+Snowtl:
+  name: snow
+  type: land
+Subbtl:
+  name: subterranean
+  type: land
+Swmptl:
+  name: swamp
+  type: land
+Watrtl:
+  name: water
+  type: land
+AH06_:
+  name: legionary
+  type: hero
+AVWcycl:
+  name: сyclops
+  type: unit
+AVTchst0:
+  name: chest
+  type: resource
+AVTwood0:
+  name: wood
+  type: resource
+AVTsulf0:
+  name: sulfur
+  type: resource
+AVTORE0:
+  name: ore
+  type: resource
+AVTgold0:
+  name: gold
+  type: resource
+AVTmerc0:
+  name: mercury
+  type: resource
+AVTgems0:
+  name: gems
+  type: resource
+AVTCRYS0:
+  name: crystals
+  type: resource
+ADAG:
+  name: arrows
+  type: arrows

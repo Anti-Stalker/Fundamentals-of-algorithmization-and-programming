@@ -1,0 +1,87 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/ARK_NOVA.jpg</file>
+        <file>img/Aist.jpg</file>
+        <file>img/rating.txt</file>
+        <file>img/Sand.png</file>
+        <file>img/Plant.png</file>
+        <file>img/Table3.jpeg</file>
+        <file>img/Table4.jpeg</file>
+        <file>img/Совет Ассоциации.png</file>
+        <file>img/Колода.png</file>
+        <file>img/.png</file>
+        <file>img/Ассоциации.jpg</file>
+        <file>img/Животные.jpg</file>
+        <file>img/Карты.jpg</file>
+        <file>img/Спонсоры.jpg</file>
+        <file>img/Строительство.jpg</file>
+        <file>img/Отдых.png</file>
+        <file>img/стройка.jpg</file>
+        <file>img/ОдинВальер.png</file>
+        <file>img/ДваВальера.png</file>
+        <file>img/ТриВальера.png</file>
+        <file>img/Вальер.png</file>
+        <file>img/Киоск.png</file>
+        <file>img/Павильон.png</file>
+        <file>img/congratulations.jpg</file>
+    </qresource>
+    <qresource prefix="/cards">
+        <file>cards/Гепард.png</file>
+        <file>cards/Австралийский динго.png</file>
+        <file>cards/Австралия.png</file>
+        <file>cards/Азия.png</file>
+        <file>cards/Альпийский козерог.png</file>
+        <file>cards/Америка.png</file>
+        <file>cards/Африка.png</file>
+        <file>cards/Боливийский красный ревун.png</file>
+        <file>cards/Большая рея.png</file>
+        <file>cards/Большой носорог.png</file>
+        <file>cards/Ветеринар.png</file>
+        <file>cards/Домик совы.png</file>
+        <file>cards/Европа.png</file>
+        <file>cards/Европейский барсук.png</file>
+        <file>cards/Енот.png</file>
+        <file>cards/Жираф.png</file>
+        <file>cards/Золотой львиный тамарин.png</file>
+        <file>cards/Зоопарк натуралистов.png</file>
+        <file>cards/Исследования.png</file>
+        <file>cards/Исследовательский зоопарк.png</file>
+        <file>cards/Лиса.png</file>
+        <file>cards/Малая райская птица.png</file>
+        <file>cards/Мантовая гереса.png</file>
+        <file>cards/Медведь-ленивец.png</file>
+        <file>cards/Новозеландский морской лев.png</file>
+        <file>cards/Обыкновенная носуха.png</file>
+        <file>cards/Орнитолог.png</file>
+        <file>cards/Очковый лангур.png</file>
+        <file>cards/Парк макак-резус.png</file>
+        <file>cards/Приматолог.png</file>
+        <file>cards/Приматы.png</file>
+        <file>cards/Природоохранный зоопарк.png</file>
+        <file>cards/Программа разведения приматов.png</file>
+        <file>cards/Программа разведения птиц.png</file>
+        <file>cards/Программа разведения травоядных.png</file>
+        <file>cards/Программа разведения хищных.png</file>
+        <file>cards/Птицы.png</file>
+        <file>cards/Пума.png</file>
+        <file>cards/Разнообрази среды обитания.png</file>
+        <file>cards/Американский аллигатор.png</file>
+        <file>cards/Африканская черепаха.png</file>
+        <file>cards/Африканский страус.png</file>
+        <file>cards/Кольцехвостый лемур.png</file>
+        <file>cards/Малый фламинго.png</file>
+        <file>cards/Розовый фламинго.png</file>
+        <file>cards/Серый лангур северных равнин.png</file>
+        <file>cards/Скальный варан.png</file>
+        <file>cards/Спонсорский зоопарк</file>
+        <file>cards/Технологический институт.png</file>
+        <file>cards/Травоядные</file>
+        <file>cards/Федеральные гранты.png</file>
+        <file>cards/Хищники</file>
+        <file>cards/Широконосый кайман.png</file>
+        <file>cards/Эквадорская белечья обезьяна.png</file>
+        <file>cards/Эксперт по травоядным.png</file>
+        <file>cards/Эксперт по хищникам.png</file>
+        <file>cards/Волк.png</file>
+    </qresource>
+</RCC>

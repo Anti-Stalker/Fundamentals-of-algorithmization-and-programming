@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/scope">
+        <file>scope_reticles/ACOG.png</file>
+        <file>scope_reticles/PSO-1.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Административная панель{% endblock %}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        p {
+            color: #666;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Административная панель</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="{% url 'admin:index' %}">Главная</a></li>
+            <li><a href="{% url 'admin:app_list' app_label='auth' %}">Пользователи</a></li>
+            <li><a href="{% url 'admin:app_list' app_label='your_app_label' %}">Ваше приложение</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Добро пожаловать в административную панель!</h2>
+            <ul>
+                <li><a href="{% url 'admin:auth_user_changelist' %}">Пользователи</a></li>
+                <li><a href="{% url 'admin:myapp_word_changelist' %}">Слова</a></li>
+                <li><a href="{% url 'admin:myapp_category_changelist' %}">Категории</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>© {% now "Y" %} Django Admin</p>
+    </footer>
+</body>
+</html>

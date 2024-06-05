@@ -1,0 +1,54 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>resourses/images/icon.jpg</file>
+        <file>resourses/images/wall.jpg</file>
+        <file>resourses/images/room-wall.jpg</file>
+        <file>resourses/images/bed.png</file>
+        <file>resourses/images/addBuilding-cage.png</file>
+        <file>resourses/images/floor-room-cage.jpg</file>
+        <file>resourses/images/door.jpg</file>
+        <file>resourses/images/dota.png</file>
+        <file>resourses/images/hookah.png</file>
+        <file>resourses/images/ps4.png</file>
+        <file>resourses/images/Hammer.png</file>
+        <file>resourses/images/ghost.png</file>
+        <file>resourses/images/6-bybe.png</file>
+        <file>resourses/images/shelly.png</file>
+        <file>resourses/images/dota2.png</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>resourses/styles/styles.css</file>
+        <file>resourses/styles/setting-styles.css</file>
+    </qresource>
+    <qresource prefix="/bg">
+        <file>resourses/images/menuBg.jpg</file>
+        <file>resourses/images/settings-bg.jpg</file>
+        <file>resourses/images/menu-bg.jpg</file>
+        <file>resourses/images/map.jpg</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>resourses/music/bg-music.mp3</file>
+    </qresource>
+    <qresource prefix="/sounds">
+        <file>resourses/music/hitting-door-sound.wav</file>
+        <file>resourses/music/button-in-menu-pressed.wav</file>
+        <file>resourses/music/quite-pressing.wav</file>
+    </qresource>
+    <qresource prefix="/textfiles">
+        <file>cache</file>
+    </qresource>
+    <qresource prefix="/skins">
+        <file>resourses/images/skins/tanya.png</file>
+        <file>resourses/images/skins/nikita.png</file>
+        <file>resourses/images/skins/katya.png</file>
+        <file>resourses/images/skins/german.png</file>
+        <file>resourses/images/skins/skin-5.png</file>
+        <file>resourses/images/skins/skin-4.png</file>
+        <file>resourses/images/skins/skin-3.png</file>
+        <file>resourses/images/skins/skin-2.png</file>
+        <file>resourses/images/skins/skin-1.png</file>
+        <file>resourses/images/skins/skin-8.png</file>
+        <file>resourses/images/skins/skin-7.png</file>
+        <file>resourses/images/skins/skin-6.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/">
+        <file>pngegg.png</file>
+        <file>pngegg(1).png</file>
+        <file>map.jpg</file>
+        <file>tower.png</file>
+        <file>archer.png</file>
+        <file>swordman.png</file>
+        <file>09.png</file>
+        <file>06.png</file>
+        <file>end.png</file>
+        <file>endPr.png</file>
+        <file>cursor.png</file>
+        <file>hp.png</file>
+        <file>back.png</file>
+        <file>title.png</file>
+        <file>mine.png</file>
+        <file>mineD.png</file>
+        <file>kirka.png</file>
+        <file>score.txt</file>
+    </qresource>
+</RCC>
