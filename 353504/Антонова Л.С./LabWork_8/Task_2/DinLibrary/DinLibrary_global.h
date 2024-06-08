@@ -1,0 +1,12 @@
+#ifndef DINLIBRARY_GLOBAL_H
+#define DINLIBRARY_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(DINLIBRARY_LIBRARY)
+#define DINLIBRARY_EXPORT Q_DECL_EXPORT
+#else
+#define DINLIBRARY_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // DINLIBRARY_GLOBAL_H

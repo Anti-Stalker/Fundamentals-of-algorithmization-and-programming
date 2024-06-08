@@ -1,0 +1,24 @@
+Iitp 1 course
+create stepik
+Somebody
+Idk
+30.04.2005
+5
+Iitp 2 course
+create iis
+Somebody
+Idk
+30.07.2005
+30
+Iitp 3 course
+create google
+Somebody
+Idk
+30.07.2005
+30
+Iitp 4 course
+create yourself
+Somebody
+Idk
+30.07.2005
+30

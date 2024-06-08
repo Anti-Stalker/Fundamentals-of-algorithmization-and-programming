@@ -1,0 +1,12 @@
+#ifndef ARRAYHEAPLIB_GLOBAL_H
+#define ARRAYHEAPLIB_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(ARRAYHEAPLIB_LIBRARY)
+#define ARRAYHEAPLIB_EXPORT Q_DECL_EXPORT
+#else
+#define ARRAYHEAPLIB_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // ARRAYHEAPLIB_GLOBAL_H

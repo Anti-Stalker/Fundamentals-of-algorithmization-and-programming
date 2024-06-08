@@ -1,0 +1,72 @@
+.add-candidate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+  }
+  
+  .add-candidate-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+  }
+  
+  .add-candidate-card h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .add-candidate-card input {
+    width: calc(100% - 22px);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-candidate-card button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .add-candidate-card button:hover {
+    background: #025aa5;
+  }
+  
+  .add-candidate-card .response-message {
+    color: rgb(6, 1, 1);
+    margin-top: 1rem;
+  }
+  
+  .nav-back {
+    width: 400px;
+    margin-bottom: 1rem;
+  }
+  
+  .nav-back button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    background: #0275d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .nav-back button:hover {
+    background: #025aa5;
+  }
+  
