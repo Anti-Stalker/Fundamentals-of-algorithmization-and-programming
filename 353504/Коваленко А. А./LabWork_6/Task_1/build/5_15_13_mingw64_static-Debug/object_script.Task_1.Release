@@ -1,0 +1,10 @@
+release/Plant.o
+release/main.o
+release/mainwindow.o
+release/plant1.o
+release/plant2.o
+release/plant3.o
+release/plant4.o
+release/task_1_plugin_import.o
+release/qrc_res.o
+release/moc_mainwindow.o
