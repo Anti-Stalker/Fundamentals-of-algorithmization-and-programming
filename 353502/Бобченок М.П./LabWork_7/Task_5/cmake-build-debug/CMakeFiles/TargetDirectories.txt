@@ -1,0 +1,4 @@
+/home/u/CLionProjects/Lab7/task5/cmake-build-debug/CMakeFiles/task5.dir
+/home/u/CLionProjects/Lab7/task5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/u/CLionProjects/Lab7/task5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/u/CLionProjects/Lab7/task5/cmake-build-debug/CMakeFiles/task5_autogen.dir

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../картинки курсач/Стол 5.3.png</file>
+        <file>../картинки курсач/Фон 1_16-9.png</file>
+    </qresource>
+</RCC>

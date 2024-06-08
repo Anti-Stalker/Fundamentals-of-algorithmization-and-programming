@@ -1,42 +1,40 @@
-# Программа для установки приложений
+# Создание банковского приложенuя
 
 Краткое описание 
 
-## Блок-схема алгоритма дешифрования RSA
+## Блок-схема алгоритма хеширования SHA-256
 
-Применяется в: `download.cpp`
+Применяется в: `AllUsersFile.cpp в методе Add_user_base_data_to_all_users_file, реализация в файле SHA-256.cpp`
 
-![Algorithm scheme](schemes/1.png)
+![Algorithm scheme](schemes/first.png)
 
-Краткое описание
+## Блок-схема алгоритма Луна
 
-## Блок-схема алгоритма дешифрования RC4
+Применяется в: `Transfer_money_window.cpp в методе Is_lines_right, реализация в файле Luna.cpp`
 
-Применяется в: `download_nv.cpp`
-
-![Algorithm scheme](schemes/2.png)
+![Algorithm scheme](schemes/second.png)
 
 Краткое описание
 
-## Блок-схема алгоритма дешифрования Виженера
+## Блок-схема алгоритма создания банковского счёта
 
-Применяется в: `delete.cpp`
+Применяется в: `Card.cpp в методе Create_Mastercard_card, реализация в файле Bank_account.cpp`
 
-![Algorithm scheme](schemes/3.png)
-
-Краткое описание
-
-## Блок-схема алгоритма установки приложения
-
-Применяется в: `mainwindow.cpp download.cpp`
-
-![Algorithm scheme](schemes/4.png)
+![Algorithm scheme](schemes/third.png)
 
 Краткое описание
 
-## Блок-схема алгоритма удаления приложения
+## Блок-схема алгоритма создания банковской карты
 
-Применяется в: `mainwindow.cpp delete.cpp`
+Применяется в: `Bank_meneger.cpp в методах Register_new_Mastercard_card_to_user, Register_new_Visa_card_to_user, реализация в файле Card.cpp`
 
-![Algorithm scheme](schemes/5.png)
+![Algorithm scheme](schemes/fourth.png)
+
+Краткое описание
+
+## Блок-схема алгоритма шифрования Blowfish
+
+Применяется в: `AllUsersFile.cpp в методах Add_user_personal_data_to_file (зашиврование), Users_in_file_to_meneger (расшиврование), реализация в файле BlowFish.cpp`
+
+![Algorithm scheme](schemes/fifth.png)
 

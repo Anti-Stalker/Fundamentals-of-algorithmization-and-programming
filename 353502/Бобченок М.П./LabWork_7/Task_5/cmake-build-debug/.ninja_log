@@ -1,0 +1,9 @@
+# ninja log v5
+1	10	1717173593608274544	task5_autogen/mocs_compilation.cpp	e80b37d3a4a287a5
+1	10	1717173593608274544	task5_autogen/timestamp	e80b37d3a4a287a5
+1027	1182	1717173594776284804	task5	2499117b39682cc1
+1	10	1717173593608274544	/home/u/CLionProjects/Lab7/task5/cmake-build-debug/task5_autogen/timestamp	e80b37d3a4a287a5
+1	10	1717173593608274544	/home/u/CLionProjects/Lab7/task5/cmake-build-debug/task5_autogen/mocs_compilation.cpp	e80b37d3a4a287a5
+94	1198	1717173329529818476	CMakeFiles/task5.dir/task5_autogen/mocs_compilation.cpp.o	cd2058ba4e1c0695
+8	1054	1717173474903206755	CMakeFiles/task5.dir/main.cpp.o	47e3fecd9639b8fc
+10	1027	1717173594624283469	CMakeFiles/task5.dir/main_window.cpp.o	70dbc070f43ab420

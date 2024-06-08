@@ -33,6 +33,8 @@ public:
     QPushButton *interpolationSort;
     QLabel *label;
     QLabel *time;
+    QSpinBox *binSpin;
+    QPushButton *bin;
 
     void setupUi(QWidget *main_window)
     {
@@ -74,6 +76,14 @@ public:
         time = new QLabel(main_window);
         time->setObjectName(QString::fromUtf8("time"));
         time->setGeometry(QRect(1770, 480, 91, 17));
+        binSpin = new QSpinBox(main_window);
+        binSpin->setObjectName(QString::fromUtf8("binSpin"));
+        binSpin->setGeometry(QRect(1970, 300, 61, 26));
+        binSpin->setMinimum(1);
+        binSpin->setMaximum(10);
+        bin = new QPushButton(main_window);
+        bin->setObjectName(QString::fromUtf8("bin"));
+        bin->setGeometry(QRect(1970, 340, 141, 31));
 
         retranslateUi(main_window);
 
@@ -90,6 +100,7 @@ public:
         interpolationSort->setText(QCoreApplication::translate("main_window", "interpolationSort", nullptr));
         label->setText(QCoreApplication::translate("main_window", "time - ", nullptr));
         time->setText(QString());
+        bin->setText(QCoreApplication::translate("main_window", "bin", nullptr));
     } // retranslateUi
 
 };

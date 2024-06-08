@@ -28,6 +28,7 @@ class main_window : public QWidget
 Q_OBJECT
 
 private slots:
+    void bin();
     void qs();
     void hs();
     void ms();
@@ -39,6 +40,7 @@ private:
     std::mt19937_64 rnd;
     std::vector<moving_rect> columns;
     bool solving = false;
+    bool solved = false;
     int time;
 
     void shuffle(std::vector<moving_rect> &v);

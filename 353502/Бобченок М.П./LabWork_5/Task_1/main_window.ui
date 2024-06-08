@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>main_window</class>
+ <widget class="QWidget" name="main_window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>2560</width>
+    <height>1600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>2560</width>
+    <height>1600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2560</width>
+    <height>1600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>main_window</string>
+  </property>
+  <widget class="QGraphicsView" name="graphicsView">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>0</y>
+     <width>2560</width>
+     <height>1600</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l1">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l2">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l4">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l3">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l8">
+   <property name="geometry">
+    <rect>
+     <x>1210</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l6">
+   <property name="geometry">
+    <rect>
+     <x>990</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l7">
+   <property name="geometry">
+    <rect>
+     <x>1100</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l5">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l10">
+   <property name="geometry">
+    <rect>
+     <x>1430</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l11">
+   <property name="geometry">
+    <rect>
+     <x>1540</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l9">
+   <property name="geometry">
+    <rect>
+     <x>1320</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l12">
+   <property name="geometry">
+    <rect>
+     <x>1650</x>
+     <y>760</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l17">
+   <property name="geometry">
+    <rect>
+     <x>910</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l22">
+   <property name="geometry">
+    <rect>
+     <x>1460</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l15">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l18">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l21">
+   <property name="geometry">
+    <rect>
+     <x>1350</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l19">
+   <property name="geometry">
+    <rect>
+     <x>1130</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l16">
+   <property name="geometry">
+    <rect>
+     <x>800</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l23">
+   <property name="geometry">
+    <rect>
+     <x>1570</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l20">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l13">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l14">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>870</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l30">
+   <property name="geometry">
+    <rect>
+     <x>1180</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l24">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l27">
+   <property name="geometry">
+    <rect>
+     <x>850</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l32">
+   <property name="geometry">
+    <rect>
+     <x>1400</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l29">
+   <property name="geometry">
+    <rect>
+     <x>1070</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l31">
+   <property name="geometry">
+    <rect>
+     <x>1290</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l26">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l28">
+   <property name="geometry">
+    <rect>
+     <x>960</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="l25">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>980</y>
+     <width>100</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="space">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>1090</y>
+     <width>541</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="language">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>760</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox{
+background-color: white;
+font: 400 20pt &quot;Ubuntu&quot;;
+border: 4px solid black;
+}
+
+QComboBox:item:selected
+{
+	color: black;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>en</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ru</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>de</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>fr</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>ar</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>by</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>he</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>zh</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="timer">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>40</y>
+     <width>221</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sm">
+   <property name="geometry">
+    <rect>
+     <x>2290</x>
+     <y>40</y>
+     <width>221</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>T</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sm_2">
+   <property name="geometry">
+    <rect>
+     <x>1850</x>
+     <y>40</y>
+     <width>411</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Symbols per sec</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="text">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>280</y>
+     <width>1521</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 400 30pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="load">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>600</y>
+     <width>221</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 20pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>load</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="accuracy">
+   <property name="geometry">
+    <rect>
+     <x>2290</x>
+     <y>200</y>
+     <width>221</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;
+border: 4px solid black;</string>
+   </property>
+   <property name="text">
+    <string>Accuracy</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="sm_4">
+   <property name="geometry">
+    <rect>
+     <x>2010</x>
+     <y>200</y>
+     <width>251</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: white;
+font: 400 41pt &quot;Ubuntu&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Accuracy</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

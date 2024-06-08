@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/task5.dir/task5_autogen/mocs_compilation.cpp.o CMakeFiles/task5.dir/main.cpp.o CMakeFiles/task5.dir/main_window.cpp.o -o task5  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.10 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.10 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.10 

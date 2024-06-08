@@ -9,10 +9,49 @@
 #include <random>
 #include "ui_main_window.h"
 
+void main_window::bin()
+{
+    if (solving || !solved)
+        return;
+
+    for (auto &u : columns)
+    {
+        u.setColor(2);
+    }
+
+    int l = 0, r = columns.size() - 1;
+    while (l < r)
+    {
+        int mid = (l + r) / 2;
+        if (mid < ui->binSpin->value())
+            l = mid + 1;
+        else
+            r = mid;
+
+        columns[mid].setColor(0);
+        QCoreApplication::processEvents();
+        updateWindow();
+        usleep(1000000 - ui->speed->value());
+        columns[mid].setColor(2);
+        QCoreApplication::processEvents();
+        updateWindow();
+    }
+
+    columns[l].setColor(0);
+    QCoreApplication::processEvents();
+    updateWindow();
+}
+
 void main_window::qs()
 {
     if (solving)
         return;
+
+    for (auto &u : columns)
+    {
+        u.setColor(2);
+    }
+
     solving = true;
     time = clock();
     quicksort(0, columns.size() - 1);
@@ -21,12 +60,19 @@ void main_window::qs()
     ui->time->setText(QString::number(time));
 
     solving = false;
+    solved = true;
 }
 
 void main_window::hs()
 {
     if (solving)
         return;
+
+    for (auto &u : columns)
+    {
+        u.setColor(2);
+    }
+
     solving = true;
     time = clock();
     heapSort(columns.size());
@@ -35,12 +81,19 @@ void main_window::hs()
     ui->time->setText(QString::number(time));
 
     solving = false;
+    solved = true;
 }
 
 void main_window::ms()
 {
     if (solving)
         return;
+
+    for (auto &u : columns)
+    {
+        u.setColor(2);
+    }
+
     solving = true;
     time = clock();
     mergeSort(0, columns.size() - 1);
@@ -49,12 +102,19 @@ void main_window::ms()
     ui->time->setText(QString::number(time));
 
     solving = false;
+    solved = true;
 }
 
 void main_window::is()
 {
     if (solving)
         return;
+
+    for (auto &u : columns)
+    {
+        u.setColor(2);
+    }
+
     solving = true;
     time = clock();
     interpolationSort();
@@ -63,12 +123,14 @@ void main_window::is()
     ui->time->setText(QString::number(time));
 
     solving = false;
+    solved = true;
 }
 
 void main_window::restart()
 {
     if (solving)
         return;
+    solved = false;
     columns.clear();
 }
 
@@ -78,6 +140,7 @@ void main_window::updateWindow()
     {
         if (columns.size() != ui->columnsNum->value())
         {
+            ui->binSpin->setMaximum(ui->columnsNum->value());
             columns.clear();
             for (int i = 1; i <= ui->columnsNum->value(); i++)
             {
@@ -291,6 +354,7 @@ main_window::main_window(QWidget *parent) :
     connect(ui->heapSort, SIGNAL(clicked(bool)), this, SLOT(hs()));
     connect(ui->mergeSort, SIGNAL(clicked(bool)), this, SLOT(ms()));
     connect(ui->interpolationSort, SIGNAL(clicked(bool)), this, SLOT(is()));
+    connect(ui->bin, SIGNAL(clicked(bool)), this, SLOT(bin()));
 
     auto *timer = new QTimer(this);
     timer->setInterval(100);
