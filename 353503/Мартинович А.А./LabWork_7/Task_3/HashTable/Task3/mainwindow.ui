@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="TableView" name="table">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>511</width>
+      <height>461</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="addBox">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>80</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>99999</number>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="addEdit">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>160</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>250</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="delBox">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>350</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>99999</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delButton">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>440</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="addEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>430</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="delBox_2">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>620</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>99999</number>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delButton_2">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>710</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addButton_2">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>520</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="addBox_2">
+    <property name="geometry">
+     <rect>
+      <x>860</x>
+      <y>350</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>99999</number>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TableView</class>
+   <extends>QTextEdit</extends>
+   <header>tableview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

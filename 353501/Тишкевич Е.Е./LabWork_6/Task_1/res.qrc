@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/new/image">
+        <file>plant/aloe.jpg</file>
+        <file>plant/azalea.jpg</file>
+        <file>plant/begonia.jpg</file>
+        <file>plant/zamioculcas.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,8 @@
+/home/andrey/Labs/Lab2/Task1/Date/cmake-build-debug/CMakeFiles/Date.dir
+/home/andrey/Labs/Lab2/Task1/Date/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrey/Labs/Lab2/Task1/Date/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/andrey/Labs/Lab2/Task1/Date/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/andrey/Labs/Lab2/Task1/Date/cmake-build-debug/CMakeFiles/install.dir
+/home/andrey/Labs/Lab2/Task1/Date/cmake-build-debug/CMakeFiles/install/local.dir
+/home/andrey/Labs/Lab2/Task1/Date/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/andrey/Labs/Lab2/Task1/Date/cmake-build-debug/CMakeFiles/Date_autogen.dir

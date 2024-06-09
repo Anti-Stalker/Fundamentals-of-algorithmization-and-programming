@@ -1,0 +1,12 @@
+#ifndef COOLSTRING_GLOBAL_H
+#define COOLSTRING_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(COOLSTRING_LIBRARY)
+#  define COOLSTRING_EXPORT Q_DECL_EXPORT
+#else
+#  define COOLSTRING_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // COOLSTRING_GLOBAL_H

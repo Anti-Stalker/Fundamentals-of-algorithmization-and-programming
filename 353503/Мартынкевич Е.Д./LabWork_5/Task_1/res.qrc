@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>arabic</file>
+        <file>chinese</file>
+        <file>english</file>
+        <file>belarusian</file>
+        <file>french</file>
+        <file>german</file>
+        <file>hebrew</file>
+        <file>test1</file>
+        <file>test2</file>
+        <file>test3</file>
+    </qresource>
+</RCC>

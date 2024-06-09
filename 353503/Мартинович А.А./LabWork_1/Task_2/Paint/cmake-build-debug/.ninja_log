@@ -1,0 +1,23 @@
+# ninja log v5
+7	438	1708771563976176529	Paint_autogen/timestamp	d91904531c5ef69b
+442	3585	1708771567124073662	CMakeFiles/Paint.dir/trianglefigure.cpp.o	7e028af5c909355c
+440	4436	1708771567976046065	CMakeFiles/Paint.dir/mainwindow.cpp.o	729e1d78d44f449c
+441	3400	1708771566940079631	CMakeFiles/Paint.dir/rhombusfigure.cpp.o	f8753cb588c515c0
+3400	5825	1708771569368001232	CMakeFiles/Paint.dir/canva.cpp.o	18b7717ebebea341
+438	3986	1708771567528060576	CMakeFiles/Paint.dir/Paint_autogen/mocs_compilation.cpp.o	2a5f1e0f0240d951
+441	3022	1708771566564091866	CMakeFiles/Paint.dir/ellipsefigure.cpp.o	3479d71d65d2314e
+3306	5535	1708771569076010605	CMakeFiles/Paint.dir/polygon6figure.cpp.o	b261d16ddf009804
+5825	6457	1708771569991981204	Paint	7e96b1654c66a41f
+3343	5255	1708704244578587435	CMakeFiles/Paint.dir/barmenu.cpp.o	2c97ad338dca7c3e
+7	438	1708771563976176529	Paint_autogen/mocs_compilation.cpp	d91904531c5ef69b
+7	438	1708771563976176529	/home/andrey/Labs/Lab1/MyTask2/Paint/cmake-build-debug/Paint_autogen/mocs_compilation.cpp	d91904531c5ef69b
+441	3330	1708771566872081844	CMakeFiles/Paint.dir/rectanglefigure.cpp.o	66f8d8a51a7c691b
+591	1312	1708513019760072305	CMakeFiles/Paint.dir/mathfunction.cpp.o	dea72a1665824863
+3145	5407	1708771568948014721	CMakeFiles/Paint.dir/star8figure.cpp.o	ad6d12c46ab9ab2d
+442	3588	1708771567128073532	CMakeFiles/Paint.dir/abstractpolygon.cpp.o	5fcdba247279665
+442	3145	1708771566688087831	CMakeFiles/Paint.dir/star5figure.cpp.o	dd3c6790555a41d5
+3330	5679	1708771569220005983	CMakeFiles/Paint.dir/polygon8figure.cpp.o	642941dd473de8bf
+440	3305	1708771566848082624	CMakeFiles/Paint.dir/abstractfigure.cpp.o	bef076c05e433a49
+439	3757	1708771567300067961	CMakeFiles/Paint.dir/main.cpp.o	ba1ac6f7662f949a
+7	438	1708771563976176529	/home/andrey/Labs/Lab1/MyTask2/Paint/cmake-build-debug/Paint_autogen/timestamp	d91904531c5ef69b
+3023	5382	1708771568924015495	CMakeFiles/Paint.dir/star6figure.cpp.o	5dcb3193316381ed

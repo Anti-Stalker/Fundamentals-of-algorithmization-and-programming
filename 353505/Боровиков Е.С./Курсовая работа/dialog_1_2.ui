@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog_1_2</class>
+ <widget class="QDialog" name="dialog_1_2">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1544</width>
+    <height>866</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QSpinBox" name="spinBoxForRost_1_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSpinBox {
+    background-color: #eaf6fd; /* Голубой цвет фона */
+    border: 2px solid #b3d9ff; /* Голубая обводка */
+    border-radius: 5px; /* Скругление углов */
+    padding: 5px; /* Отступ внутри */
+    min-width: 80px; /* Минимальная ширина */
+}
+
+QSpinBox::up-button {
+    background-color: #ff69b4; /* Розовый цвет кнопки увеличения */
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 16px; /* Ширина кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 0px; /* Скругление углов */
+    color: white; /* Белый цвет текста */
+    image: url('data:image/svg+xml;utf8,&lt;svg fill=&quot;white&quot; height=&quot;12&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;12&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h24v24H0V0z&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M7 14l5-5 5 5z&quot;/&gt;&lt;/svg&gt;');
+}
+
+QSpinBox::down-button {
+    background-color: #ff69b4; /* Розовый цвет кнопки уменьшения */
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 16px; /* Ширина кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 0px; /* Скругление углов */
+    color: white; /* Белый цвет текста */
+    image: url('data:image/svg+xml;utf8,&lt;svg fill=&quot;white&quot; height=&quot;12&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;12&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h24v24H0V0z&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M7 10l5 5 5-5z&quot;/&gt;&lt;/svg&gt;');
+}
+
+QSpinBox::up-button:hover,
+QSpinBox::down-button:hover {
+    background-color: #ff1493; /* Цвет кнопок при наведении */
+}
+
+QSpinBox::up-button:pressed,
+QSpinBox::down-button:pressed {
+    background-color: #dc143c; /* Цвет кнопок при нажатии */
+}
+</string>
+   </property>
+   <property name="minimum">
+    <number>160</number>
+   </property>
+   <property name="maximum">
+    <number>200</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxForRazmer_1_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>590</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSpinBox {
+    background-color: #eaf6fd; /* Голубой цвет фона */
+    border: 2px solid #b3d9ff; /* Голубая обводка */
+    border-radius: 5px; /* Скругление углов */
+    padding: 5px; /* Отступ внутри */
+    min-width: 80px; /* Минимальная ширина */
+}
+
+QSpinBox::up-button {
+    background-color: #ff69b4; /* Розовый цвет кнопки увеличения */
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 16px; /* Ширина кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 0px; /* Скругление углов */
+    color: white; /* Белый цвет текста */
+    image: url('data:image/svg+xml;utf8,&lt;svg fill=&quot;white&quot; height=&quot;12&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;12&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h24v24H0V0z&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M7 14l5-5 5 5z&quot;/&gt;&lt;/svg&gt;');
+}
+
+QSpinBox::down-button {
+    background-color: #ff69b4; /* Розовый цвет кнопки уменьшения */
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 16px; /* Ширина кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 0px; /* Скругление углов */
+    color: white; /* Белый цвет текста */
+    image: url('data:image/svg+xml;utf8,&lt;svg fill=&quot;white&quot; height=&quot;12&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;12&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h24v24H0V0z&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M7 10l5 5 5-5z&quot;/&gt;&lt;/svg&gt;');
+}
+
+QSpinBox::up-button:hover,
+QSpinBox::down-button:hover {
+    background-color: #ff1493; /* Цвет кнопок при наведении */
+}
+
+QSpinBox::up-button:pressed,
+QSpinBox::down-button:pressed {
+    background-color: #dc143c; /* Цвет кнопок при нажатии */
+}
+</string>
+   </property>
+   <property name="minimum">
+    <number>160</number>
+   </property>
+   <property name="maximum">
+    <number>200</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="spinBoxForMassa_1_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>370</y>
+     <width>261</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QSpinBox {
+    background-color: #eaf6fd; /* Голубой цвет фона */
+    border: 2px solid #b3d9ff; /* Голубая обводка */
+    border-radius: 5px; /* Скругление углов */
+    padding: 5px; /* Отступ внутри */
+    min-width: 80px; /* Минимальная ширина */
+}
+
+QSpinBox::up-button {
+    background-color: #ff69b4; /* Розовый цвет кнопки увеличения */
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 16px; /* Ширина кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 0px; /* Скругление углов */
+    color: white; /* Белый цвет текста */
+    image: url('data:image/svg+xml;utf8,&lt;svg fill=&quot;white&quot; height=&quot;12&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;12&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h24v24H0V0z&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M7 14l5-5 5 5z&quot;/&gt;&lt;/svg&gt;');
+}
+
+QSpinBox::down-button {
+    background-color: #ff69b4; /* Розовый цвет кнопки уменьшения */
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 16px; /* Ширина кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 0px; /* Скругление углов */
+    color: white; /* Белый цвет текста */
+    image: url('data:image/svg+xml;utf8,&lt;svg fill=&quot;white&quot; height=&quot;12&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;12&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h24v24H0V0z&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M7 10l5 5 5-5z&quot;/&gt;&lt;/svg&gt;');
+}
+
+QSpinBox::up-button:hover,
+QSpinBox::down-button:hover {
+    background-color: #ff1493; /* Цвет кнопок при наведении */
+}
+
+QSpinBox::up-button:pressed,
+QSpinBox::down-button:pressed {
+    background-color: #dc143c; /* Цвет кнопок при нажатии */
+}
+</string>
+   </property>
+   <property name="minimum">
+    <number>40</number>
+   </property>
+   <property name="maximum">
+    <number>150</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>140</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(170, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>Рост</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>540</y>
+     <width>141</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(170, 0, 255);
+</string>
+   </property>
+   <property name="text">
+    <string>Размах рук</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>320</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(170, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>Масса</string>
+   </property>
+  </widget>
+  <widget class="QDoubleSpinBox" name="doubleSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>730</x>
+     <y>370</y>
+     <width>251</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QDoubleSpinBox {
+    background-color: #eaf6fd; /* Голубой цвет фона */
+    border: 2px solid #b3d9ff; /* Голубая обводка */
+    border-radius: 5px; /* Скругление углов */
+    padding: 5px; /* Отступ внутри */
+    min-width: 80px; /* Минимальная ширина */
+}
+
+QDoubleSpinBox::up-button {
+    background-color: #ff69b4; /* Розовый цвет кнопки увеличения */
+    subcontrol-origin: border;
+    subcontrol-position: top right;
+    width: 16px; /* Ширина кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 0px; /* Скругление углов */
+    color: white; /* Белый цвет текста */
+    image: url('data:image/svg+xml;utf8,&lt;svg fill=&quot;white&quot; height=&quot;12&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;12&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h24v24H0V0z&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M7 14l5-5 5 5z&quot;/&gt;&lt;/svg&gt;');
+}
+
+QDoubleSpinBox::down-button {
+    background-color: #ff69b4; /* Розовый цвет кнопки уменьшения */
+    subcontrol-origin: border;
+    subcontrol-position: bottom right;
+    width: 16px; /* Ширина кнопки */
+    border: none; /* Убираем границу */
+    border-radius: 0px; /* Скругление углов */
+    color: white; /* Белый цвет текста */
+    image: url('data:image/svg+xml;utf8,&lt;svg fill=&quot;white&quot; height=&quot;12&quot; viewBox=&quot;0 0 24 24&quot; width=&quot;12&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;&lt;path d=&quot;M0 0h24v24H0V0z&quot; fill=&quot;none&quot;/&gt;&lt;path d=&quot;M7 10l5 5 5-5z&quot;/&gt;&lt;/svg&gt;');
+}
+
+QDoubleSpinBox::up-button:hover,
+QDoubleSpinBox::down-button:hover {
+    background-color: #ff1493; /* Цвет кнопок при наведении */
+}
+
+QDoubleSpinBox::up-button:pressed,
+QDoubleSpinBox::down-button:pressed {
+    background-color: #dc143c; /* Цвет кнопок при нажатии */
+}
+</string>
+   </property>
+   <property name="minimum">
+    <double>0.010000000000000</double>
+   </property>
+   <property name="maximum">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="singleStep">
+    <double>0.010000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>320</y>
+     <width>161</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 700 14pt &quot;Times New Roman&quot;;
+color: rgb(170, 0, 255);</string>
+   </property>
+   <property name="text">
+    <string>Толщина льда</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rezult">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>670</y>
+     <width>271</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #6495ED; /* Светло-синий цвет */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial, sans-serif; /* Измените шрифт здесь */
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+}
+
+QPushButton:hover {
+    background-color: #4682B4; /* Светло-синий цвет, на несколько тонов темнее при наведении */
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: #4169E1; /* Светло-синий цвет, на несколько тонов темнее при нажатии */
+    color: white;
+    padding: 14px 31px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Расчитать</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>670</y>
+     <width>251</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #6495ED; /* Светло-синий цвет */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    font-family: Arial, sans-serif; /* Измените шрифт здесь */
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+}
+
+QPushButton:hover {
+    background-color: #4682B4; /* Светло-синий цвет, на несколько тонов темнее при наведении */
+    color: white;
+}
+
+QPushButton:pressed {
+    background-color: #4169E1; /* Светло-синий цвет, на несколько тонов темнее при нажатии */
+    color: white;
+    padding: 14px 31px;
+}
+
+</string>
+   </property>
+   <property name="text">
+    <string>Назад</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,6 @@
+# ninja log v5
+0	401	1709830584218421012	Statement_autogen/timestamp	677115fad61c6ff3
+0	401	1709830584218421012	Statement_autogen/mocs_compilation.cpp	677115fad61c6ff3
+0	401	1709830584218421012	/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/Statement_autogen/timestamp	677115fad61c6ff3
+0	401	1709830584218421012	/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/Statement_autogen/mocs_compilation.cpp	677115fad61c6ff3
+401	2439	1709830586258345930	CMakeFiles/Statement.dir/main.cpp.o	2c099a8096e40c72

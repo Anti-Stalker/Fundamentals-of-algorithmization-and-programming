@@ -1,0 +1,68 @@
+#include "hashtable.h"
+#include <QRandomGenerator>
+
+HashTable::HashTable(int V) {
+    capacity = getNextPrime(V);
+    table.resize(capacity);
+}
+
+bool HashTable::isPrime(int n) {
+    if (n < 1)
+        return false;
+    for (int i = 2; i * i <= n; i++) {
+        if (n % i == 0)
+            return false;
+    }
+    return true;
+}
+
+int HashTable::getNextPrime(int n) {
+    while (!isPrime(n))
+        n++;
+    return n;
+}
+
+int HashTable::hashFunction(int key) {
+    return key % capacity;
+}
+
+void HashTable::insertItem(int key, int data) {
+    int index = hashFunction(key);
+    table[index].push(data);
+}
+
+void HashTable::deleteItem(int key) {
+    int index = hashFunction(key);
+    table[index].pop();
+}
+
+QVector<QVector<int>> HashTable::displayHash() {
+    QVector<QVector<int>> result;
+    for (int i = 0; i < capacity; i++) {
+        QVector<int> slotContent = table[i].toQVector();
+        result.append(slotContent);
+    }
+    return result;
+}
+
+void HashTable::clear() {
+    for (auto & i : table) {
+        i.clear();
+    }
+}
+
+void HashTable2::createRandomHashTable() {
+    for (int i = 0; i < 100; ++i) {
+        insertItem(QRandomGenerator::global()->bounded(0, capacity), QRandomGenerator::global()->bounded(0, 100));
+    }
+}
+
+QVector<int> HashTable2::findMaxKey() {
+    int maxKey = 0;
+    for (int i = 1; i < capacity; ++i) {
+        if (!table[i].isEmpty() && i > maxKey) {
+            maxKey = i;
+        }
+    }
+    return table[maxKey].toQVector();
+}

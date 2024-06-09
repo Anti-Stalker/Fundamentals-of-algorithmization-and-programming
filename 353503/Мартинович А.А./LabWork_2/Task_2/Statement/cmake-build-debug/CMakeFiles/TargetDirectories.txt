@@ -1,0 +1,9 @@
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/Statement.dir
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/install.dir
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/install/local.dir
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/Statement_autogen_timestamp_deps.dir
+/home/andrey/Labs/Lab2/Task2/Statement/cmake-build-debug/CMakeFiles/Statement_autogen.dir
